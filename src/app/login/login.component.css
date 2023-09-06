@@ -1,0 +1,20 @@
+.container-fluid {
+    display: flex; /* Flexbox'u kullanarak içeriği hizalayacağız */
+    justify-content: center; /* İçeriği yatayda ortala */
+    align-items: center; /* İçeriği dikeyde ortala */
+    height: 35vh; /* Sayfanın yüksekliğine göre içeriği ortala */
+  }
+
+  .custom-input,
+.button-container {
+    width: 140%;
+    text-align: center;
+    margin-bottom: 10px;
+   
+    /* Diğer özelleştirmeleri burada yapabilirsiniz */
+}
+
+.form-title {
+    text-align: center; /* H1 başlığını yatayda ortala */
+    margin-left: 50px; /* Gerekirse düzenleyebilirsiniz */
+}

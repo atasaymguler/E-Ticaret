@@ -1,0 +1,19 @@
+<div class="container-fluid ">
+    <form #loginForm="ngForm" (ngSubmit)="login(loginForm)">
+        
+            <h1  class="h1 mb-1 fw-normal form-title">Sisteme Giriş</h1>
+    
+        <div class="form-floating custom-input">
+            <input type="text" class="form-control" #userName="ngModel" [(ngModel)]="model.userName" id="userName" name="userName" placeholder="Kullanıcı Adı" autofocus>
+            <label for="floatingInput">Kullanıcı Adı</label>
+        </div>
+        <div class="form-floating custom-input">
+            <input type="password" class="form-control" #password="ngModel" [(ngModel)]="model.password" id="password" name="password" placeholder="Şifre">
+            <label for="floatingPassword">Şifre</label>
+        </div>
+
+        <button  class="btn btn-primary w-140 py-2 button-container " type="submit">Giriş Yap</button>
+
+    </form> 
+</div>
+
